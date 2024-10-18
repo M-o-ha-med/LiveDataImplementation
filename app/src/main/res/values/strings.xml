@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="bb">Button_2</string>
+    <string name="b">Button_1</string>
+    <string name="length">Panjang</string>
+    <string name="Width">Lebar</string>
+    <string name="Height">Tinggi</string>
+    <string name="Height_hint">Masukkan Tinggi</string>
+    <string name="Width_hint">Masukkan Lebar</string>
+    <string name="length_hint">Masukkan Panjang</string>
+    <string name="Calculate">Hitung Volume</string>
+</resources>

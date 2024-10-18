@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/length"/>
+
+    <EditText
+        android:id ="@+id/length_data"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:lines="1"
+        android:inputType="numberDecimal"
+        android:hint="@string/length_hint"/>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Width"/>
+
+    <EditText
+        android:id= "@+id/Width_data"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:lines="1"
+        android:inputType="numberDecimal"
+        android:hint="@string/Width_hint"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Height"/>
+
+    <EditText
+        android:id="@+id/Height_data"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:lines="1"
+        android:inputType="numberDecimal"
+        android:hint="@string/Height_hint"/>
+
+    <Button
+        android:id="@+id/Button_calc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Calculate"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id = "@+id/Hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+</LinearLayout>
